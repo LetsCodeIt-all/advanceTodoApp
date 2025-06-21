@@ -1,0 +1,106 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #8ccdeb;
+}
+.Container {
+  height: auto;
+  width: min(500px, 80%);
+  background-color: pink;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 15px silver;
+}
+
+#Task {
+  color: white;
+  font-weight: bold;
+  background-color: #d4eaf5;
+  height: 10px;
+  border-radius: 20px;
+  border: none;
+  padding: 20px;
+  outline: none;
+}
+.Addtask button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: darkblue;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  width: 80px;
+}
+.task {
+  width: 90%;
+  margin: 5px;
+  border: 2px dashed white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.task input {
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  height: 10px;
+  border-radius: 20px;
+  border: none;
+  padding: 20px;
+  outline: none;
+}
+.task button {
+  margin: 5px;
+  margin-right: 0px;
+  padding: 10px;
+
+  border: none;
+  background-color: darkblue;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  width: 70px;
+}
+#reset {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: darkblue;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  width: 80px;
+  font-weight: bold;
+}
+.Time {
+  padding: 20px;
+  border-radius: 20px;
+  color: rgb(252, 19, 174);
+  background-color: white;
+  border: none;
+
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  height: 10px;
+}
+.Time::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+#ChangeMode {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  color: yellow;
+  cursor: pointer;
+}
